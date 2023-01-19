@@ -5,7 +5,7 @@
 		],
 	"collection_ids":
 		[
-			"0d1e9e55-448c-30fc-0000-017879ef031b"
+			"0374bda6-8b44-28a3-0000-0184e3dcb010"
 		],
 	"fields":
 		[
@@ -20,8 +20,8 @@
 			"extracted_metadata.filename"
 		],
 	"per_document": true,
-	"apikey": "ydPdisYfwHxJbIb9jzfci5jFt8IFgD18qjO9qZFjkklD",
-	"endpoint": "https://api.us-south.discovery.watson.cloud.ibm.com/instances/ad1ec158-4ff7-4008-8c8a-31d68301756b",
-	"project_id": "03384723-9107-4724-82e2-aa1bae61a815",
+	"apikey": "nCeFJfEifPWjCCiBUBWh3-cIcROoqQzj8kbtvuQ-PWkE",
+	"endpoint": "https://api.us-south.discovery.watson.cloud.ibm.com/instances/29ec7433-c44f-412b-9b1c-2d30c6353934",
+	"project_id": "ee62ce2c-047a-404e-9439-a03b8e8d450f",
 	"version": "2019-11-22"
 }

@@ -25024,15 +25024,28 @@ a.cds--side-nav__link--current::before {
     <link rel="stylesheet" href="css/bulma.min.css" />
     <link rel="stylesheet" href="css/bulma-docs.min.css" />
     <link rel="stylesheet" href="css/hs-style1.css" />
+    <script>
+      function mostrarBarra(){
+        document.getElementById('pgbar').style.visibility="visible";
+        console.log("mostrando barra")
+      }
+    </script>
 </head>
 <body>
    <noscript>You need to enable JavaScript to run this app.</noscript>
    <div id="root">
       <header aria-label="IBM" class="cds--header">
          <a class="cds--header__name" href="#"><span class="cds--header__name--prefix">IBM</span>&nbsp;[Enterate]</a>
-         <nav aria-label="IBM [Enterate]" class="cds--header__nav">
+         <nav aria-label="Entel [Enterate]" class="cds--header__nav">
             <ul class="cds--header__menu-bar">
-               <li><a href="#" class="cds--header__menu-item cds--header__menu-item--current" tabindex="0"><span class="cds--text-truncate--end">Buscador cognitivo</span></a></li>
+               <li><a href="#" class="cds--header__menu-item cds--header__menu-item--current" tabindex="0"><span class="cds--text-truncate--end" style="font-family: IBM Plex Sans, Helvetica Neue, Arial, sans-serif;
+                margin: 0px;
+                -webkit-font-smoothing: antialiased;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                color: rgb(51, 51, 51);
+                font-size: 28px;
+                font-weight: 900;
+                line-height: 32px;">Buscador cognitivo</span></a></li>
                <li><a href="#" class="cds--header__menu-item" tabindex="0"><span class="cds--text-truncate--end">Dashboard</span></a></li>
                <li><a href="#" class="cds--header__menu-item" tabindex="0"><span class="cds--text-truncate--end">Admin</span></a></li>
             </ul>
@@ -25064,11 +25077,6 @@ a.cds--side-nav__link--current::before {
                   </div>                  
                </div>
                <div class="cds--css-grid-column">
-                <script>
-                  function mostrarBarra(){
-                    document.getElementById('pgbar').style.visibility="visible";
-                  }
-                </script>
                 <button tabindex="0" class="cds--btn cds--btn--primary" type="button" id="getdiscovery" onclick="mostrarBarra()">Buscar</button></div>
             </div>
          </main>

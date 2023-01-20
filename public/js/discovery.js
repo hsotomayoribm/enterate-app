@@ -271,7 +271,6 @@ $(document).ready(function () {
     var question = $("input#gaama").val().trim();
     if (question != "") {
       queryDiscovery(question);
-      setTimeout(continueExecution, 2000)
       $("#pgbar").css("visibility", "hidden");
     }
   });

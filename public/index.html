@@ -25064,9 +25064,15 @@ a.cds--side-nav__link--current::before {
                   </div>                  
                </div>
                <div class="cds--css-grid-column">
-                <button tabindex="0" class="cds--btn cds--btn--primary" type="button" id="getdiscovery">Buscar</button></div>
+                <script>
+                  function mostrarBarra(){
+                    document.getElementById('pgbar').style.visibility="visible";
+                  }
+                </script>
+                <button tabindex="0" class="cds--btn cds--btn--primary" type="button" id="getdiscovery" onclick="mostrarBarra()">Buscar</button></div>
             </div>
          </main>
+         <div id="pgbar" style="visibility: hidden;" class="cds--progress-bar cds--progress-bar--big cds--progress-bar--default cds--progress-bar--indeterminate"><div class="cds--progress-bar__label" id="progress-bar-189"><span class="cds--progress-bar__label-text">Realizando la busqueda</span></div><div class="cds--progress-bar__track" role="progressbar" aria-busy="true" aria-invalid="false" aria-labelledby="progress-bar-189"><div class="cds--progress-bar__bar"></div></div><div class="cds--progress-bar__helper-text">Por favor espera mientras discovery consigue los mejores resultados<div class="cds--visually-hidden" aria-live="polite" id="progress-bar-helper-190">Loading</div></div></div>
          <div id="answers" class="is-hidden"></div>
       </main>
    </div>
